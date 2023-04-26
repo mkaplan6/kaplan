@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import { Home } from './Components/Home';
 import { Resume } from './Components/Resume'
 import { Work } from './Components/Work'
@@ -9,21 +9,21 @@ import { LinkedIn } from './Components/Linkedin';
 import Navbar from './Navbar';
 
 function App() {
-  return (
-    <>
-    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-    <Navbar />
-    <div className='Container'>
-    <Routes> {/* Every route of the website goes in between these tags */}
-      <Route path='/' element={<Home />}></Route> {/* Render one specific route of the website*/}
-      <Route path='resume' element={<Resume />}></Route>
-      <Route path='work' element={<Work />}></Route>
-      <Route path='activities' element={<Activities />}></Route>
-      <Route path='github' element={<Github />}></Route>
-      <Route path='linkedin' element={<LinkedIn />}></Route>
-    </Routes>
-    </div>
-    </>
+  return (     
+      <>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+      <Navbar />
+      <div className='Container'>
+      <Routes> {/* Every route of the website goes in between these tags */}
+        <Route path='/' element={<Home />}></Route> {/* Render one specific route of the website*/}
+        <Route path='resume' element={<Resume />}></Route>
+        <Route path='work' element={<Work />}></Route>
+        <Route path='activities' element={<Activities />}></Route>
+        <Route path='github' element={<Github />}></Route>
+        <Route path='linkedin' element={<LinkedIn />}></Route>
+      </Routes>
+      </div>
+      </>
   );
 }
 
