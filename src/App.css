@@ -14,18 +14,19 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(14, 33, 121); /*Change the background text color*/
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Oxygen', sans-serif;
+  color: rgb(255, 255, 255); /*Change the title text color*/
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61fb80;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +37,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* body {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+} */
