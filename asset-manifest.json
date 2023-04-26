@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kaplan/static/css/main.1a4bfdb9.css",
-    "main.js": "/kaplan/static/js/main.adc72807.js",
+    "main.js": "/kaplan/static/js/main.b5b753e4.js",
     "static/js/787.28cb0dcd.chunk.js": "/kaplan/static/js/787.28cb0dcd.chunk.js",
     "static/media/banner.png": "/kaplan/static/media/banner.6d5a30203a11eac6cf03.png",
     "static/media/home4.png": "/kaplan/static/media/home4.122a1bdb37827c78b6b2.png",
@@ -9,11 +9,11 @@
     "static/media/work full.png": "/kaplan/static/media/work full.4ba088b6bc581b62d2f9.png",
     "index.html": "/kaplan/index.html",
     "main.1a4bfdb9.css.map": "/kaplan/static/css/main.1a4bfdb9.css.map",
-    "main.adc72807.js.map": "/kaplan/static/js/main.adc72807.js.map",
+    "main.b5b753e4.js.map": "/kaplan/static/js/main.b5b753e4.js.map",
     "787.28cb0dcd.chunk.js.map": "/kaplan/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a4bfdb9.css",
-    "static/js/main.adc72807.js"
+    "static/js/main.b5b753e4.js"
   ]
 }
